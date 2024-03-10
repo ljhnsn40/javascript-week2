@@ -47,6 +47,22 @@ nav ul li a {
     font-weight: bold; /* Set font weight */
 }
 
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.contact-form h1 {
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.contact-form form {
+    width: 80%; /* Adjust as needed */
+    max-width: 600px; /* Adjust as needed */
+}
+
 /* Contact Form styling */
 .contact-form {
     display: flex;
@@ -60,6 +76,8 @@ nav ul li a {
     padding: 20px; /* Add padding */
     border-radius: 8px; /* Add border radius */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    margin-top: 20px ;
+    width: 80%;
     max-width: 600px; /* Set max width of the form */
 }
 
