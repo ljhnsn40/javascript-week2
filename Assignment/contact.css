@@ -1,0 +1,105 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply general styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
+
+/* Apply a shadow to the header */
+header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Center align items vertically */
+    padding: 10px; /* Add padding */
+    background-color: rgb(245, 121, 142); /* Pink background color */
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.logo img {
+    width: 400px; /* Set width of logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styles */
+}
+
+nav ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add margin to the right of list items */
+    font-size: xx-large; /* Set font size for navigation items */
+    color: black; /* Set text color */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set text color */
+    font-weight: bold; /* Set font weight */
+}
+
+/* Contact Form styling */
+.contact-form {
+    display: flex;
+    justify-content: center; /* Center align content horizontally */
+    align-items: center; /* Center align content vertically */
+    margin-top: 20px; /* Add margin to the top */
+}
+
+.contact-form form {
+    background-color: #f9f9f9; /* Light gray background color */
+    padding: 20px; /* Add padding */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    max-width: 600px; /* Set max width of the form */
+}
+
+.contact-form h1 {
+    text-align: center; /* Center align heading */
+    margin-bottom: 20px; /* Add margin to the bottom */
+}
+
+.contact-form label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 10px; /* Add margin to the bottom */
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button {
+    width: 100%; /* Set width to 100% */
+    padding: 10px; /* Add padding */
+    margin-bottom: 20px; /* Add margin to the bottom */
+    border-radius: 4px; /* Add border radius */
+    border: 1px solid #ccc; /* Add border */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.contact-form button {
+    background-color:  rgb(245, 121, 142); /* Dark gray background color */
+    color: papayawhip; /* White text color */
+    border: none; /* Remove border */
+    cursor: pointer; } 
+
+.contact-form button:hover {
+    background-color: peachpuff; /* Darken background color on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding */
+    background-color: rgb(245, 121, 142); /* Pink background color */
+    color: black; /* Set text color */
+    font-size: medium; /* Set font size */
+}

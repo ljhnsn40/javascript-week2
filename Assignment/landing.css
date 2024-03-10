@@ -1,0 +1,77 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;}
+
+/* Header styling */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(245, 121, 142);
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 400px;
+    height: auto;
+}
+
+nav ul li a {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: xx-large;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+} 
+
+
+
+/* Banner styling */
+.banner {
+    margin-top: 20px; /* Add margin */
+    text-align: center; /* Center align text */
+}
+
+.banner img {
+    width: 100%; /* Set image width to fill container */
+}
+
+/* Tagline styling */
+.tagline {
+    text-align: center; /* Center align text */
+    padding: 20px; /* Add padding */
+}
+
+.tagline p {
+    line-height: 2; /* Set line height */
+    color: black; /* Set text color */
+    font-size: x-large;
+    
+}
+
+/* Footer styling */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(245, 121, 142);
+    color: black;
+    font-size: medium;
+}
+
+
+
